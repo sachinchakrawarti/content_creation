@@ -1,6 +1,14 @@
-# 📺 Qubit Documentary — Series Video List
+# 🎬 Qubit Documentary — YouTube Shorts
 
-> Master index of all documentary series produced by **Qubit Documentary**.
+> Master list of all YouTube Shorts for **Qubit Documentary**.
+
+---
+
+# Overview
+
+YouTube Shorts are fast, engaging, vertical videos designed to educate, entertain, and promote longer-form content.
+
+**Target Duration:** 15–60 seconds (maximum 3 minutes)
 
 ---
 
@@ -19,207 +27,125 @@
 
 ---
 
-# Series Overview
+# Content Categories
 
-| Series                  | Episodes | Status | Notes   |
-| ----------------------- | -------- | ------ | ------- |
-| Artificial Intelligence | 0        | 💡     | Planned |
-| Computer Science        | 0        | 💡     | Planned |
-| Quantum Computing       | 0        | 💡     | Planned |
-| Cyber Security          | 0        | 💡     | Planned |
-| Space Exploration       | 0        | 💡     | Planned |
-| Physics                 | 0        | 💡     | Planned |
-| Mathematics             | 0        | 💡     | Planned |
-| Internet History        | 0        | 💡     | Planned |
-| Programming Languages   | 0        | 💡     | Planned |
-| Open Source             | 0        | 💡     | Planned |
-
----
-
-# Artificial Intelligence
-
-| #  | Episode                          | Status | Duration | Published |
-| -- | -------------------------------- | ------ | -------- | --------- |
-| 01 | What is Artificial Intelligence? | 💡     | --       | --        |
-| 02 | History of AI                    | 💡     | --       | --        |
-| 03 | Machine Learning Explained       | 💡     | --       | --        |
-| 04 | Deep Learning                    | 💡     | --       | --        |
-| 05 | Neural Networks                  | 💡     | --       | --        |
-| 06 | Large Language Models            | 💡     | --       | --        |
-| 07 | Computer Vision                  | 💡     | --       | --        |
-| 08 | Reinforcement Learning           | 💡     | --       | --        |
-| 09 | AI Ethics                        | 💡     | --       | --        |
-| 10 | Future of AI                     | 💡     | --       | --        |
+| Category             | Description                         |
+| -------------------- | ----------------------------------- |
+| ⚡ Quick Facts        | Interesting facts in under a minute |
+| 🧠 AI Facts          | Artificial Intelligence insights    |
+| 💻 Computer Science  | Programming and computing concepts  |
+| ⚛️ Quantum Computing | Quantum facts and concepts          |
+| 🔐 Cyber Security    | Security tips and news              |
+| 🌌 Space             | Astronomy and space exploration     |
+| 📚 History           | Technology and science history      |
+| 🔬 Science           | Physics, chemistry, and biology     |
+| 📈 Trending          | Current technology trends           |
+| 🎯 Promotions        | Clips promoting long-form videos    |
 
 ---
 
-# Computer Science
+# Video Tracker
 
-| #  | Episode                   | Status |
-| -- | ------------------------- | ------ |
-| 01 | What is Computer Science? | 💡     |
-| 02 | Algorithms                | 💡     |
-| 03 | Data Structures           | 💡     |
-| 04 | Operating Systems         | 💡     |
-| 05 | Databases                 | 💡     |
-| 06 | Networking                | 💡     |
-| 07 | Compilers                 | 💡     |
-| 08 | Distributed Systems       | 💡     |
-| 09 | Cloud Computing           | 💡     |
-| 10 | Future Computing          | 💡     |
-
----
-
-# Quantum Computing
-
-| #  | Episode                           | Status |
-| -- | --------------------------------- | ------ |
-| 01 | Introduction to Quantum Computing | 💡     |
-| 02 | Qubits Explained                  | 💡     |
-| 03 | Superposition                     | 💡     |
-| 04 | Entanglement                      | 💡     |
-| 05 | Quantum Gates                     | 💡     |
-| 06 | Quantum Algorithms                | 💡     |
-| 07 | Shor's Algorithm                  | 💡     |
-| 08 | Grover's Algorithm                | 💡     |
-| 09 | Quantum Hardware                  | 💡     |
-| 10 | Future of Quantum Computing       | 💡     |
+| ID   | Title                           | Category            | Status | Duration | Publish Date |
+| ---- | ------------------------------- | ------------------- | ------ | -------- | ------------ |
+| S001 | What is a Qubit?                | ⚛️ Quantum          | 💡     | 45s      | --           |
+| S002 | The First Computer Bug          | 💻 Computer Science | 💡     | 40s      | --           |
+| S003 | Why is the Sky Black in Space?  | 🌌 Space            | 💡     | 55s      | --           |
+| S004 | AI vs Machine Learning          | 🧠 AI               | 💡     | 60s      | --           |
+| S005 | The Internet Started as ARPANET | 📚 History          | 💡     | 50s      | --           |
+| S006 | Binary in 30 Seconds            | 💻 Computer Science | 💡     | 30s      | --           |
+| S007 | Schrödinger's Cat Explained     | ⚛️ Quantum          | 💡     | 60s      | --           |
+| S008 | Strong Password Tips            | 🔐 Cyber Security   | 💡     | 45s      | --           |
+| S009 | James Webb's Amazing Image      | 🌌 Space            | 💡     | 50s      | --           |
+| S010 | Why Python Is So Popular        | 💻 Computer Science | 💡     | 55s      | --           |
 
 ---
 
-# Cyber Security
+# Publishing Checklist
 
-| #  | Episode               | Status |
-| -- | --------------------- | ------ |
-| 01 | Cyber Security Basics | 💡     |
-| 02 | Cryptography          | 💡     |
-| 03 | Password Security     | 💡     |
-| 04 | Malware               | 💡     |
-| 05 | Ransomware            | 💡     |
-| 06 | Social Engineering    | 💡     |
-| 07 | Network Security      | 💡     |
-| 08 | Ethical Hacking       | 💡     |
-| 09 | Digital Privacy       | 💡     |
-| 10 | Future Threats        | 💡     |
-
----
-
-# Space Exploration
-
-| #  | Episode                      | Status |
-| -- | ---------------------------- | ------ |
-| 01 | History of Space Exploration | 💡     |
-| 02 | Apollo Missions              | 💡     |
-| 03 | SpaceX                       | 💡     |
-| 04 | Mars Exploration             | 💡     |
-| 05 | James Webb Space Telescope   | 💡     |
-| 06 | Black Holes                  | 💡     |
-| 07 | Exoplanets                   | 💡     |
-| 08 | Dark Matter                  | 💡     |
-| 09 | Future Space Missions        | 💡     |
-| 10 | Colonizing Mars              | 💡     |
+* [ ] Topic selected
+* [ ] Research completed
+* [ ] Script written
+* [ ] Voice-over recorded
+* [ ] Captions added
+* [ ] Background music added
+* [ ] Thumbnail (if required)
+* [ ] SEO title written
+* [ ] Description written
+* [ ] Hashtags added
+* [ ] Upload completed
+* [ ] Added to playlist
+* [ ] Shared on social media
 
 ---
 
-# Physics
+# Recommended Naming Convention
 
-| #  | Episode              | Status |
-| -- | -------------------- | ------ |
-| 01 | Classical Physics    | 💡     |
-| 02 | Relativity           | 💡     |
-| 03 | Quantum Mechanics    | 💡     |
-| 04 | Thermodynamics       | 💡     |
-| 05 | Electromagnetism     | 💡     |
-| 06 | Particle Physics     | 💡     |
-| 07 | Nuclear Physics      | 💡     |
-| 08 | Cosmology            | 💡     |
-| 09 | String Theory        | 💡     |
-| 10 | Theory of Everything | 💡     |
+| Item           | Example                 |
+| -------------- | ----------------------- |
+| Video ID       | `S001`                  |
+| Script         | `S001-script.md`        |
+| Voice-over     | `S001-voice.wav`        |
+| Thumbnail      | `S001-thumbnail.png`    |
+| Final Export   | `S001-final.mp4`        |
+| Project Folder | `S001-what-is-a-qubit/` |
 
 ---
 
-# Mathematics
+# Monthly Goals
 
-| #  | Episode        | Status |
-| -- | -------------- | ------ |
-| 01 | Number Systems | 💡     |
-| 02 | Algebra        | 💡     |
-| 03 | Geometry       | 💡     |
-| 04 | Calculus       | 💡     |
-| 05 | Probability    | 💡     |
-| 06 | Statistics     | 💡     |
-| 07 | Graph Theory   | 💡     |
-| 08 | Linear Algebra | 💡     |
-| 09 | Game Theory    | 💡     |
-| 10 | Chaos Theory   | 💡     |
-
----
-
-# Internet History
-
-| #  | Episode               | Status |
-| -- | --------------------- | ------ |
-| 01 | Birth of the Internet | 💡     |
-| 02 | ARPANET               | 💡     |
-| 03 | World Wide Web        | 💡     |
-| 04 | Google                | 💡     |
-| 05 | Wikipedia             | 💡     |
-| 06 | YouTube               | 💡     |
-| 07 | Social Media          | 💡     |
-| 08 | Smartphones           | 💡     |
-| 09 | Cloud Computing       | 💡     |
-| 10 | Web3                  | 💡     |
+| Month     | Target Shorts | Published |
+| --------- | ------------: | --------: |
+| January   |            30 |         0 |
+| February  |            28 |         0 |
+| March     |            31 |         0 |
+| April     |            30 |         0 |
+| May       |            31 |         0 |
+| June      |            30 |         0 |
+| July      |            31 |         0 |
+| August    |            31 |         0 |
+| September |            30 |         0 |
+| October   |            31 |         0 |
+| November  |            30 |         0 |
+| December  |            31 |         0 |
 
 ---
 
-# Programming Languages
+# Performance Tracker
 
-| #  | Episode                | Status |
-| -- | ---------------------- | ------ |
-| 01 | History of Programming | 💡     |
-| 02 | C                      | 💡     |
-| 03 | C++                    | 💡     |
-| 04 | Java                   | 💡     |
-| 05 | Python                 | 💡     |
-| 06 | JavaScript             | 💡     |
-| 07 | Rust                   | 💡     |
-| 08 | Go                     | 💡     |
-| 09 | Kotlin                 | 💡     |
-| 10 | Future Languages       | 💡     |
+| ID   | Views | Likes | Comments | Shares | Subscribers Gained |
+| ---- | ----: | ----: | -------: | -----: | -----------------: |
+| S001 |     0 |     0 |        0 |      0 |                  0 |
+| S002 |     0 |     0 |        0 |      0 |                  0 |
+| S003 |     0 |     0 |        0 |      0 |                  0 |
+| S004 |     0 |     0 |        0 |      0 |                  0 |
+| S005 |     0 |     0 |        0 |      0 |                  0 |
 
 ---
 
-# Open Source
+# Ideas Backlog
 
-| #  | Episode               | Status |
-| -- | --------------------- | ------ |
-| 01 | What is Open Source?  | 💡     |
-| 02 | Linux                 | 💡     |
-| 03 | Git                   | 💡     |
-| 04 | GitHub                | 💡     |
-| 05 | Apache Projects       | 💡     |
-| 06 | Mozilla               | 💡     |
-| 07 | Blender               | 💡     |
-| 08 | LibreOffice           | 💡     |
-| 09 | Kubernetes            | 💡     |
-| 10 | Future of Open Source | 💡     |
-
----
-
-# Production Metrics
-
-| Metric             | Value |
-| ------------------ | ----: |
-| Total Series       |    10 |
-| Planned Episodes   |   100 |
-| Published Episodes |     0 |
-| In Progress        |     0 |
-| Archived           |     0 |
+* Quantum computer myths
+* How Wi-Fi works
+* Why the moon has no atmosphere
+* The first website ever created
+* What is RAM?
+* Why do hackers use Linux?
+* What is ChatGPT?
+* What is a GPU?
+* Why is zero important?
+* How GPS works
+* The history of USB
+* Why QR codes work
+* What is cloud computing?
+* What is encryption?
+* The smallest programming language
+* Why rockets need multiple stages
+* How touchscreens work
+* The birth of YouTube
+* The history of Google
+* How SSDs store data
 
 ---
 
-## Notes
-
-* Update the **Status** column as each episode moves through production.
-* Add publication dates and video links after release.
-* Review this document regularly to prioritize upcoming series and track overall progress.
+> **Goal:** Publish consistently, educate in under a minute, and use Shorts to drive viewers toward your mini and long-form documentary content.
