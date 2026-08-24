@@ -51,13 +51,11 @@
 // src/remotion/Root.jsx
 import React from "react";
 import { Composition } from "remotion";
+// ✅ CORRECT - Use relative path from Root.jsx location
 import { QuotePost } from "./compositions/Instagram/ImagePost/QuotePost/QuotePost.jsx";
-import { getRandomQuote } from "./compositions/Instagram/ImagePost/QuotePost/data/quote.js";
+import { quoteData } from "./compositions/Instagram/ImagePost/QuotePost/data/quote.js";
 
-export const Root = () => {
-  // Get a random quote
-  const randomQuote = getRandomQuote();
-
+const Root = () => {
   return (
     <>
       <Composition
@@ -68,7 +66,7 @@ export const Root = () => {
         width={1080}
         height={1080}
         defaultProps={{
-          quote: randomQuote,
+          quote: quoteData,
           textColor: "#FFD700",
           fontSize: 42,
           delay: 10,
