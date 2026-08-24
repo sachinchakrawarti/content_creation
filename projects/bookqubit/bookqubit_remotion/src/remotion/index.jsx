@@ -1,5 +1,6 @@
-import React from "react";
 import { registerRoot } from "remotion";
-import { RemotionRoot } from "./Root";
+import Root from "./Root.jsx";
 
-registerRoot(RemotionRoot);
+console.log("Root component:", Root); // Add this to debug
+
+registerRoot(Root);
