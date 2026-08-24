@@ -4,6 +4,8 @@ import { Composition } from "remotion";
 import { TestVideo } from "./test";
 import { InstagramEndClip } from "./InstagramEndClip";
 import BookCarousel from "./book-carousel/BookCarousel";
+// In your Remotion composition
+import { QuotePost } from "./compositions/Instagram/ImagePost/QuotePost/QuotePost.jsx";
 
 export const RemotionRoot = () => {
   return (
@@ -33,6 +35,15 @@ export const RemotionRoot = () => {
         fps={30}
         width={1080}
         height={1350}
+      />
+
+      <QuotePost
+        quote={myQuote}
+        textColor="#FFD700"
+        fontSize={42}
+        delay={10}
+        width={1080}
+        height={1080}
       />
     </>
   );
