@@ -1,0 +1,30 @@
+{
+  "name": "tonejs-animal-sounds",
+  "version": "1.0.0",
+  "description": "Animal sound effects using Tone.js",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve .",
+    "build": "echo 'No build needed for development'",
+    "test": "echo 'No tests specified'"
+  },
+  "dependencies": {
+    "tone": "^14.7.77"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.0"
+  },
+  "keywords": [
+    "tonejs",
+    "audio",
+    "sounds",
+    "animals",
+    "kids"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

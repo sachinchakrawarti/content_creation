@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Sound Effects - KidsQubit</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: rgba(255,255,255,0.95);
+            border-radius: 30px;
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            text-align: center;
+            color: #2D3436;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #636E72;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        .animal-btn {
+            padding: 20px;
+            font-size: 20px;
+            border: 2px solid #DFE6E9;
+            border-radius: 15px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            color: #2D3436;
+        }
+        .animal-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            border-color: #667eea;
+        }
+        .animal-btn:active {
+            transform: scale(0.95);
+        }
+        .animal-btn .emoji {
+            font-size: 32px;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .controls {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .ctrl-btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            color: white;
+        }
+        .ctrl-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+        .ctrl-btn:active {
+            transform: scale(0.95);
+        }
+        .btn-celebrate { background: #4CAF50; }
+        .btn-correct { background: #2196F3; }
+        .btn-wrong { background: #f44336; }
+        .btn-music { background: #FF9800; }
+        .btn-toggle { background: #9C27B0; }
+        .btn-stop { background: #607D8B; }
+        
+        .volume-control {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+            padding: 15px;
+            background: #F8F9FA;
+            border-radius: 12px;
+        }
+        .volume-control input[type="range"] {
+            width: 200px;
+            height: 6px;
+            -webkit-appearance: none;
+            background: linear-gradient(to right, #667eea, #764ba2);
+            border-radius: 3px;
+            outline: none;
+        }
+        .volume-control input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #667eea;
+            cursor: pointer;
+        }
+        .status {
+            text-align: center;
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 14px;
+            color: #636E72;
+            background: #F8F9FA;
+        }
+        .status .ready {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        .status .not-ready {
+            color: #f44336;
+            font-weight: bold;
+        }
+        @media (max-width: 600px) {
+            .grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 Animal Sound Effects</h1>
+        <p class="subtitle">Click any animal to hear its sound!</p>
+        
+        <div class="grid">
+            <button class="animal-btn" data-animal="lion">
+                <span class="emoji">🦁</span>
+                Lion
+            </button>
+            <button class="animal-btn" data-animal="elephant">
+                <span class="emoji">🐘</span>
+                Elephant
+            </button>
+            <button class="animal-btn" data-animal="monkey">
+                <span class="emoji">🐒</span>
+                Monkey
+            </button>
+            <button class="animal-btn" data-animal="giraffe">
+                <span class="emoji">🦒</span>
+                Giraffe
+            </button>
+            <button class="animal-btn" data-animal="panda">
+                <span class="emoji">🐼</span>
+                Panda
+            </button>
+            <button class="animal-btn" data-animal="dolphin">
+                <span class="emoji">🐬</span>
+                Dolphin
+            </button>
+        </div>
+        
+        <div class="controls">
+            <button class="ctrl-btn btn-celebrate" id="celebrateBtn">🎉 Celebrate</button>
+            <button class="ctrl-btn btn-correct" id="correctBtn">✅ Correct</button>
+            <button class="ctrl-btn btn-wrong" id="wrongBtn">❌ Wrong</button>
+            <button class="ctrl-btn btn-music" id="musicBtn">🎵 Music</button>
+            <button class="ctrl-btn btn-toggle" id="toggleBtn">🔊 Sound ON</button>
+        </div>
+        
+        <div class="volume-control">
+            <span>🔈</span>
+            <input type="range" id="volumeSlider" min="0" max="1" step="0.1" value="0.5">
+            <span>🔊</span>
+            <span id="volumeValue">50%</span>
+        </div>
+        
+        <div class="status" id="status">
+            Status: <span class="not-ready" id="statusText">⏳ Click anywhere to start audio...</span>
+        </div>
+    </div>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "tone": "https://cdn.jsdelivr.net/npm/tone@14.7.77/build/esm/Tone.js"
+            }
+        }
+    </script>
+
+    <script type="module">
+        import * as Tone from 'tone';
+
+        // Animal sound configurations
+        const animalSounds = {
+            lion: { frequency: 110, duration: 0.8, type: 'square', volume: -10 },
+            elephant: { frequency: 80, duration: 1.2, type: 'sawtooth', volume: -8 },
+            monkey: { frequency: 600, duration: 0.3, type: 'sine', volume: -5 },
+            giraffe: { frequency: 200, duration: 0.6, type: 'triangle', volume: -7 },
+            panda: { frequency: 300, duration: 0.5, type: 'sine', volume: -6 },
+            dolphin: { frequency: 800, duration: 0.4, type: 'sine', volume: -4 }
+        };
+
+        let isAudioReady = false;
+        let soundEnabled = true;
+        let musicLoop = null;
+        let currentVolume = 0.5;
+
+        // Initialize audio
+        async function initAudio() {
+            if (isAudioReady) return true;
+            try {
+                await Tone.start();
+                isAudioReady = true;
+                document.getElementById('statusText').textContent = '✅ Audio Ready!';
+                document.getElementById('statusText').className = 'ready';
+                return true;
+            } catch (error) {
+                console.warn('Audio init failed:', error);
+                return false;
+            }
+        }
+
+        // Play animal sound
+        async function playAnimalSound(animalId) {
+            if (!soundEnabled) return;
+            if (!isAudioReady) {
+                const ready = await initAudio();
+                if (!ready) return;
+            }
+
+            const config = animalSounds[animalId];
+            if (!config) return;
+
+            try {
+                const osc = new Tone.Oscillator(config.frequency, config.type);
+                const gain = new Tone.Gain(0.3).toDestination();
+                osc.connect(gain);
+                
+                const now = Tone.now();
+                gain.gain.setValueAtTime(0.3, now);
+                gain.gain.exponentialRampToValueAtTime(0.01, now + config.duration);
+                
+                osc.start(now);
+                osc.stop(now + config.duration);
+            } catch (error) {
+                console.warn('Error playing sound:', error);
+            }
+        }
+
+        // Play celebration
+        async function playCelebration() {
+            if (!soundEnabled) return;
+            if (!isAudioReady) await initAudio();
+
+            try {
+                const synth = new Tone.Synth({
+                    oscillator: { type: 'sine' },
+                    envelope: { attack: 0.01, decay: 0.1, sustain: 0.3, release: 0.1 }
+                }).toDestination();
+                
+                const notes = ['C4', 'E4', 'G4', 'C5', 'E5', 'G5'];
+                notes.forEach((note, i) => {
+                    synth.triggerAttackRelease(note, '8n', Tone.now() + i * 0.1);
+                });
+            } catch (error) {
+                console.warn('Error:', error);
+            }
+        }
+
+        // Play correct sound
+        async function playCorrectSound() {
+            if (!soundEnabled) return;
+            if (!isAudioReady) await initAudio();
+
+            try {
+                const synth = new Tone.Synth({
+                    oscillator: { type: 'sine' },
+                    envelope: { attack: 0.01, decay: 0.1, sustain: 0.3, release: 0.1 }
+                }).toDestination();
+                
+                const now = Tone.now();
+                synth.triggerAttackRelease('C5', '8n', now);
+                synth.triggerAttackRelease('E5', '8n', now + 0.15);
+                synth.triggerAttackRelease('G5', '8n', now + 0.3);
+            } catch (error) {
+                console.warn('Error:', error);
+            }
+        }
+
+        // Play wrong sound
+        async function playWrongSound() {
+            if (!soundEnabled) return;
+            if (!isAudioReady) await initAudio();
+
+            try {
+                const synth = new Tone.Synth({
+                    oscillator: { type: 'sawtooth' },
+                    envelope: { attack: 0.01, decay: 0.2, sustain: 0.1, release: 0.2 }
+                }).toDestination();
+                
+                const now = Tone.now();
+                synth.triggerAttackRelease('C4', '8n', now);
+                synth.triggerAttackRelease('B3', '8n', now + 0.15);
+                synth.triggerAttackRelease('A3', '8n', now + 0.3);
+            } catch (error) {
+                console.warn('Error:', error);
+            }
+        }
+
+        // Play background music
+        async function playBackgroundMusic() {
+            if (!soundEnabled) return;
+            if (!isAudioReady) await initAudio();
+
+            try {
+                const synth = new Tone.Synth({
+                    oscillator: { type: 'sine' },
+                    envelope: { attack: 0.1, decay: 0.2, sustain: 0.3, release: 0.2 }
+                }).toDestination();
+                
+                const melody = ['C4', 'E4', 'G4', 'A4', 'B4', 'A4', 'G4', 'E4'];
+                let index = 0;
+                
+                musicLoop = new Tone.Loop((time) => {
+                    const note = melody[index % melody.length];
+                    synth.triggerAttackRelease(note, '8n', time);
+                    index++;
+                }, '4n');
+                
+                musicLoop.start(0);
+            } catch (error) {
+                console.warn('Error:', error);
+            }
+        }
+
+        // Stop music
+        function stopMusic() {
+            if (musicLoop) {
+                musicLoop.stop();
+                musicLoop = null;
+            }
+        }
+
+        // Set volume
+        function setVolume(value) {
+            currentVolume = Math.max(0, Math.min(1, value));
+            Tone.getDestination().volume.value = currentVolume * 20 - 20;
+        }
+
+        // Event listeners
+        document.querySelectorAll('.animal-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const animal = btn.dataset.animal;
+                playAnimalSound(animal);
+            });
+        });
+
+        document.getElementById('celebrateBtn').addEventListener('click', playCelebration);
+        document.getElementById('correctBtn').addEventListener('click', playCorrectSound);
+        document.getElementById('wrongBtn').addEventListener('click', playWrongSound);
+
+        let musicPlaying = false;
+        document.getElementById('musicBtn').addEventListener('click', () => {
+            if (musicPlaying) {
+                stopMusic();
+                musicPlaying = false;
+                document.getElementById('musicBtn').textContent = '🎵 Music';
+            } else {
+                playBackgroundMusic();
+                musicPlaying = true;
+                document.getElementById('musicBtn').textContent = '⏹️ Stop Music';
+            }
+        });
+
+        document.getElementById('toggleBtn').addEventListener('click', () => {
+            soundEnabled = !soundEnabled;
+            if (!soundEnabled) {
+                stopMusic();
+                musicPlaying = false;
+                document.getElementById('musicBtn').textContent = '🎵 Music';
+            }
+            document.getElementById('toggleBtn').textContent = soundEnabled ? '🔊 Sound ON' : '🔇 Sound OFF';
+        });
+
+        document.getElementById('volumeSlider').addEventListener('input', (e) => {
+            const value = parseFloat(e.target.value);
+            setVolume(value);
+            document.getElementById('volumeValue').textContent = Math.round(value * 100) + '%';
+        });
+
+        // Click anywhere to initialize audio
+        document.addEventListener('click', () => {
+            if (!isAudioReady) {
+                initAudio();
+            }
+        }, { once: true });
+
+        console.log('🎵 Animal Sound Effects loaded!');
+    </script>
+</body>
+</html>
