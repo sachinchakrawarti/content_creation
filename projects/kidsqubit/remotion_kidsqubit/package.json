@@ -1,49 +1,31 @@
 {
-  "name": "remotion_kidsqubit",
-  "version": "1.0.0",
-  "description": "My Remotion video",
-  "repository": {},
-  "license": "UNLICENSED",
+  "name": "bookqubit_remotion",
+  "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "remotion": "remotion studio src/remotion/index.jsx",
+    "render": "remotion render src/remotion/index.jsx TestVideo out/test-video.mp4"
+  },
   "dependencies": {
-    "@remotion/bundler": "4.0.518",
-    "@remotion/cli": "4.0.518",
-    "@remotion/lottie": "4.0.518",
-    "@remotion/media": "4.0.518",
-    "@remotion/media-parser": "4.0.518",
-    "@remotion/media-utils": "4.0.518",
-    "@remotion/player": "4.0.518",
-    "@remotion/renderer": "4.0.518",
-    "@remotion/studio": "4.0.518",
-    "@remotion/streaming": "4.0.518",
-    "@remotion/tailwind-v4": "4.0.518",
-    "react": "19.2.3",
-    "react-dom": "19.2.3",
-    "remotion": "4.0.518",
-    "tailwindcss": "4.0.0",
-    "zod": "4.4.3"
+    "@remotion/bundler": "^4.0.513",
+    "@remotion/cli": "^4.0.513",
+    "@remotion/player": "^4.0.513",
+    "@remotion/renderer": "^4.0.513",
+    "next": "16.3.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "remotion": "^4.0.513",
+    "tone": "^15.1.22"
   },
   "devDependencies": {
-    "@remotion/eslint-config-flat": "4.0.518",
-    "@types/react": "19.2.7",
-    "@types/web": "0.0.166",
-    "eslint": "9.19.0",
-    "prettier": "3.8.1",
-    "typescript": "5.9.3"
-  },
-  "scripts": {
-    "dev": "remotion studio",
-    "studio": "remotion studio",
-    "build": "remotion bundle",
-    "render": "remotion render src/index.ts FindAnimalGame out/game.mp4",
-    "render:short": "remotion render src/index.ts FindAnimalGameShort out/game_short.mp4",
-    "render:all": "npm run render && npm run render:short",
-    "preview": "remotion preview src/index.ts",
-    "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc",
-    "typecheck": "tsc --noEmit"
-  },
-  "sideEffects": [
-    "*.css"
-  ]
+    "@tailwindcss/postcss": "^4",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.1",
+    "tailwindcss": "^4"
+  }
 }

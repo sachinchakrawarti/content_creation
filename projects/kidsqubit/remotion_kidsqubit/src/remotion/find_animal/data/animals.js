@@ -1,19 +1,9 @@
-// src/animals.ts
-export interface Animal {
-  id: string;
-  name: string;
-  emoji: string;
-  sound: string;
-  color: string;
-  fact: string;
-}
-
-export const animals: Animal[] = [
+// find_animal/data/animals.js
+export const animals = [
   {
     id: 'lion',
     name: 'Lion',
     emoji: '🦁',
-    sound: 'Roar! 🦁',
     color: '#F4A460',
     fact: 'Lions are the only cats that live in groups!'
   },
@@ -21,7 +11,6 @@ export const animals: Animal[] = [
     id: 'elephant',
     name: 'Elephant',
     emoji: '🐘',
-    sound: 'Trumpet! 🐘',
     color: '#708090',
     fact: 'Elephants are the largest land animals!'
   },
@@ -29,7 +18,6 @@ export const animals: Animal[] = [
     id: 'monkey',
     name: 'Monkey',
     emoji: '🐒',
-    sound: 'Ooh ooh ah ah! 🐒',
     color: '#8B7355',
     fact: 'Monkeys are very smart and love to play!'
   },
@@ -37,7 +25,6 @@ export const animals: Animal[] = [
     id: 'giraffe',
     name: 'Giraffe',
     emoji: '🦒',
-    sound: 'Moo? 🦒',
     color: '#DAA520',
     fact: 'Giraffes are the tallest animals!'
   },
@@ -45,7 +32,6 @@ export const animals: Animal[] = [
     id: 'panda',
     name: 'Panda',
     emoji: '🐼',
-    sound: 'Squeak! 🐼',
     color: '#2F4F4F',
     fact: 'Pandas eat bamboo all day long!'
   },
@@ -53,8 +39,32 @@ export const animals: Animal[] = [
     id: 'dolphin',
     name: 'Dolphin',
     emoji: '🐬',
-    sound: 'Click click! 🐬',
     color: '#4682B4',
     fact: 'Dolphins are very friendly and smart!'
+  },
+  {
+    id: 'fox',
+    name: 'Fox',
+    emoji: '🦊',
+    color: '#E67E22',
+    fact: 'Foxes are very clever animals!'
+  },
+  {
+    id: 'rabbit',
+    name: 'Rabbit',
+    emoji: '🐰',
+    color: '#FFB6C1',
+    fact: 'Rabbit can jump very high!'
   }
 ];
+
+// Get random animals for game
+export const getRandomAnimals = (count = 6) => {
+  const shuffled = [...animals].sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, count);
+};
+
+// Get animal by id
+export const getAnimalById = (id) => {
+  return animals.find(animal => animal.id === id);
+};
