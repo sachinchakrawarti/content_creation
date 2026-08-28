@@ -1,6 +1,5 @@
+// src/remotion/index.jsx
 import { registerRoot } from "remotion";
-import Root from "./Root.jsx";
+import { RemotionRoot } from "./Root"; // <-- Named import, not default
 
-console.log("Root component:", Root); // Add this to debug
-
-registerRoot(Root);
+registerRoot(RemotionRoot);
