@@ -1,0 +1,30 @@
+{
+  "name": "bookqubit_remotion",
+  "version": "0.1.0",
+  "private": true,
+ "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "eslint",
+  "remotion": "remotion studio src/remotion/index.jsx",
+  "render": "remotion render src/remotion/index.jsx TestVideo out/test-video.mp4"
+},
+  "dependencies": {
+    "@remotion/bundler": "^4.0.513",
+    "@remotion/cli": "^4.0.513",
+    "@remotion/player": "^4.0.513",
+    "@remotion/renderer": "^4.0.513",
+    "next": "16.3.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "remotion": "^4.0.513"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.1",
+    "tailwindcss": "^4"
+  }
+}
