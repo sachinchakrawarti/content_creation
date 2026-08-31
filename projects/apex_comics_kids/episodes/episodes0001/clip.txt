@@ -1,0 +1,302 @@
+# Apex Comics Kids — Prompt 0001
+
+## Episode 0001 — The Mystery Portal
+
+**Generation Tool:** Adobe Firefly
+**Animation:** 2D Cartoon
+**Clip Length:** 8 seconds each
+**Format:** 9:16 Vertical
+**Language:** English
+**Total Clips:** 7
+**Approx. Final Length:** 56 seconds
+
+---
+
+# 🎨 MASTER 2D STYLE
+
+Use this style in every clip:
+
+> High-quality 2D animated kids cartoon, polished professional TV animation, clean smooth line art, vibrant colorful backgrounds, expressive characters, smooth 2D animation, appealing youthful character design, bright cinematic lighting, playful family-friendly adventure, dynamic camera movement, expressive facial animation, consistent character design, clean professional children's cartoon quality, vertical 9:16.
+
+### Negative Prompt
+
+> photorealistic, 3D, realistic human, horror, gore, scary, distorted face, extra fingers, extra limbs, duplicate character, blurry, low quality, watermark, logo, unwanted text, inconsistent character design.
+
+---
+
+# 🔒 CHARACTER CONSISTENCY
+
+For every clip:
+
+> Use the approved Samar Chakrawarti character reference. Preserve the exact same face, hairstyle, hair color, age appearance, body proportions, clothing, shoes and character design. Do not redesign Samar. Keep him looking like the same 15-year-old character in every shot.
+
+For Priyanka and Toto, use their approved reference images whenever they appear.
+
+---
+
+# 🎙️ SAMAR MASTER VOICE
+
+Use the same saved/selected Samar voice whenever Firefly provides a voice-selection or voice-preset option.
+
+### Voice Formula
+
+`Age 15 | Pitch 5/10 | Speed 5/10 | Energy 8/10 | Warmth 8/10 | Confidence 9/10 | Friendliness 9/10 | Expressiveness 8/10 | Playfulness 7/10 | Depth 4/10 | Clarity 10/10`
+
+### Voice Description
+
+> Young male teenage voice, approximately 15 years old, neutral international English accent, medium pitch, natural conversational speed, energetic, warm, confident, friendly, youthful and expressive. Clear pronunciation, playful personality, brave and intelligent delivery. Natural conversational voice, never robotic, never overly deep, never adult-sounding.
+
+**Voice rule:** Keep the same underlying voice in every episode. Change only emotion.
+
+---
+
+# 🎙️ PRIYANKA MASTER VOICE
+
+> Young female teenage voice, approximately 15–16 years old, neutral international English accent, medium-high pitch, natural conversational speed, warm, intelligent, confident, friendly and expressive, clear pronunciation, youthful and natural delivery.
+
+### Formula
+
+`Age 15–16 | Pitch 6/10 | Speed 5/10 | Energy 7/10 | Warmth 8/10 | Confidence 8/10 | Friendliness 9/10 | Expressiveness 8/10 | Clarity 10/10`
+
+---
+
+# 🤖 TOTO MASTER VOICE
+
+> Cute friendly young robot voice, clear English pronunciation, slightly robotic but warm, playful and humorous, medium pitch, natural timing, expressive robotic reactions, never scary or mechanical-sounding.
+
+### Formula
+
+`Pitch 6/10 | Speed 5/10 | Energy 6/10 | Warmth 7/10 | Robotic 4/10 | Humor 8/10 | Clarity 10/10`
+
+---
+
+# 🎬 CLIP 01 — THE GLOWING LOCKER
+
+**Duration:** 8 seconds
+
+### Firefly Video Prompt
+
+> Use the approved Samar Chakrawarti character reference. High-quality 2D animated kids cartoon. Samar Chakrawarti, a 15-year-old teenage boy, walks through a colorful modern school hallway carrying his backpack. He suddenly notices his school locker glowing with mysterious purple light. Samar stops and looks at the locker with a curious surprised expression. Purple light softly illuminates his face. Smooth 2D animation, expressive facial movement, gentle camera push toward the glowing locker, vibrant colors, polished children's TV animation, family-friendly mystery adventure, vertical 9:16.
+
+### Voice
+
+**Samar — curious and surprised:**
+
+> "Wait... why is my locker glowing?"
+
+### Audio
+
+* School ambience
+* Magical hum
+* Small surprise sound
+
+---
+
+# 🎬 CLIP 02 — THE PORTAL
+
+
+
+> Use the approved Samar Chakrawarti character reference. High-quality 2D animated kids cartoon. Samar slowly opens the glowing school locker. Inside is a tiny swirling purple dimensional portal. Purple magical light shines onto Samar's face. Samar leans closer and stares at the portal in amazement. Smooth 2D animation, expressive eyes and face, gentle magical movement, cinematic close-up, colorful school hallway, polished children's TV animation, family-friendly mystery, vertical 9:16.
+
+### Voice
+
+**Samar — surprised and playful:**
+
+> "That's definitely not my homework."
+
+### Audio
+
+* Magical portal hum
+* Small comedic sound
+
+---
+
+# 🎬 CLIP 03 — PRIYANKA AND TOTO
+
+**Duration:** 8 seconds
+
+### Firefly Video Prompt
+
+> Use the approved Samar, Priyanka and Toto character references. High-quality 2D animated kids cartoon. Samar stands beside the glowing locker. Priyanka walks into the hallway and joins him. Toto Robo-Turtle follows her. Toto activates a small futuristic scanner and scans the purple portal. Digital scanning lights appear around the portal. Samar and Priyanka watch with curiosity. Smooth 2D character animation, expressive faces, colorful school environment, polished children's TV cartoon, vertical 9:16.
+
+### Voice
+
+**Priyanka — curious:**
+
+> "Samar, what did you find?"
+
+**Samar — excited:**
+
+> "I think my locker just became a doorway."
+
+### Audio
+
+* Scanner beeps
+* Magical hum
+
+---
+
+# 🎬 CLIP 04 — THE PORTAL GROWS
+
+**Duration:** 8 seconds
+
+### Firefly Video Prompt
+
+> Use the approved Samar, Priyanka and Toto character references. High-quality 2D animated kids cartoon. The tiny purple portal suddenly expands inside the school locker. Purple energy swirls around it. Samar quickly steps in front of Priyanka and Toto and raises one hand protectively. Priyanka looks surprised. Toto scans the portal. Dynamic camera movement toward the expanding portal, dramatic but funny family-friendly superhero moment, smooth 2D animation, vibrant colors, polished children's TV cartoon, vertical 9:16.
+
+### Voice
+
+**Samar — brave and alert:**
+
+> "Everyone, stay back!"
+
+### Audio
+
+* Energy whoosh
+* Dramatic music rise
+
+---
+
+# 🎬 CLIP 05 — THE BLUE HAND
+
+**Duration:** 8 seconds
+
+### Firefly Video Prompt
+
+> Use the approved Samar, Priyanka and Toto character references. High-quality 2D animated kids cartoon. A mysterious glowing blue hand slowly reaches through the large purple dimensional portal. Samar watches carefully while standing protectively in front of his friends. Priyanka takes a small step backward. Toto looks at the hand with surprise. The mysterious hand slowly moves toward Samar. Smooth 2D animation, expressive reactions, cinematic lighting, colorful family-friendly mystery adventure, polished children's TV animation, vertical 9:16.
+
+### Voice
+
+**Samar — cautious and confused:**
+
+> "Uh... hello?"
+
+### Audio
+
+* Mysterious whoosh
+* Portal energy sound
+
+---
+
+# 🎬 CLIP 06 — THE BANANA
+
+**Duration:** 8 seconds
+
+### Firefly Video Prompt
+
+> Use the approved Samar, Priyanka and Toto character references. High-quality 2D animated kids cartoon. The mysterious glowing blue hand suddenly gives Samar a tiny banana. Samar slowly takes the banana and stares at it with a completely confused expression. Priyanka looks surprised and amused. Toto examines the banana seriously. Hold briefly on Samar's confused reaction for comedy. Smooth expressive 2D animation, vibrant colors, polished family-friendly children's cartoon, vertical 9:16.
+
+### Voice
+
+**Samar — confused:**
+
+> "A... banana?"
+
+### Audio
+
+* Comedic reveal sound
+* Short silence for reaction
+* Light comedy music
+
+---
+
+# 🎬 CLIP 07 — THE WHISPER
+
+**Duration:** 8 seconds
+
+### Firefly Video Prompt
+
+> Use the approved Samar, Priyanka and Toto character references. High-quality 2D animated kids cartoon. The purple portal suddenly disappears. Samar closes the locker and starts walking away with Priyanka and Toto. Samar suddenly stops. The closed locker begins glowing with a tiny purple light. Samar slowly turns around with a shocked expression. Camera slowly pushes toward the mysterious locker. Smooth 2D animation, expressive face, suspenseful but family-friendly atmosphere, polished children's TV cartoon, vertical 9:16.
+
+### Voice
+
+**Samar — suspicious:**
+
+> "Okay... tomorrow, we're checking that locker again."
+
+### Locker Voice — mysterious whisper
+
+> "Tomorrow..."
+
+### Ending
+
+Cut to black.
+
+### Text
+
+> **TO BE CONTINUED...**
+
+### Audio
+
+* Quiet whisper
+* Mystery music
+* Final musical sting
+
+---
+
+# 🎞️ FINAL EDIT
+
+Arrange:
+
+`01 → 02 → 03 → 04 → 05 → 06 → 07`
+
+Raw duration:
+
+**56 seconds**
+
+Add dialogue, music and sound effects while editing.
+
+---
+
+# 🎙️ AUDIO CONSISTENCY RULE
+
+The character voice must remain consistent.
+
+### Samar
+
+**Same voice:** every episode
+**Same voice:** every clip
+**Same character:** every scene
+
+Only change:
+
+**Emotion → delivery → intensity**
+
+Do NOT randomly change the voice.
+
+---
+
+# 🎨 VISUAL CONSISTENCY RULE
+
+Use approved character references every time.
+
+**Samar:** same face, hair, outfit and proportions.
+
+**Priyanka:** same face, hair, outfit and proportions.
+
+**Toto:** same robot design, shell and face.
+
+---
+
+# 📱 FINAL SHORT
+
+**Resolution:** Vertical 9:16
+**Animation:** 2D
+**Language:** English
+**Duration:** ~56 seconds
+**Genre:** Comedy + Mystery + Adventure
+**Ending:** Cliffhanger
+
+---
+
+# ⭐ EPISODE HOOK
+
+**"Wait... why is my locker glowing?"**
+
+---
+
+# ⭐ FINAL HOOK
+
+**"Tomorrow..."**
+
+This should make viewers curious about **Episode 0002**.

@@ -1,0 +1,244 @@
+{
+  "episode": {
+    "title": "The Mystery Portal!",
+
+    "format": {
+      "platform": "YouTube Shorts",
+      "language": "English",
+      "duration": "~60 seconds",
+      "aspect_ratio": "9:16",
+      "genre": "Comedy + Superhero Adventure",
+      "main_character": "Samar Chakrawarti",
+      "supporting_characters": ["Priyanka Shrivastava", "Toto Robo-Turtle"],
+      "location": "Apex City",
+      "target_audience": "Global kids/family audience"
+    },
+    "story_summary": "Samar discovers a glowing purple portal in his school locker. He calls Priyanka and Toto for help. The portal expands, and a mysterious blue hand reaches out—only to hand Samar a tiny banana. Toto is baffled. The portal vanishes, but when Samar says they'll check the locker again tomorrow, the locker whispers back 'Tomorrow...'",
+    "scenes": [
+      {
+        "scene": 1,
+        "title": "The Strange Locker",
+        "time": "0–7 sec",
+        "visual": "Colorful modern school in Apex City. Samar walks through the hallway carrying his backpack. He notices his locker glowing with purple light and stops.",
+        "dialogue": {
+          "samar": "Wait... why is my locker glowing?"
+        },
+        "animation": [
+          "Samar walks naturally.",
+          "Camera follows him.",
+          "Purple light flickers from the locker.",
+          "Samar slowly turns toward it.",
+          "Close-up on his surprised face."
+        ],
+        "sound": [
+          "School hallway ambience",
+          "Small magical hum",
+          "Surprise sound"
+        ]
+      },
+      {
+        "scene": 2,
+        "title": "The Portal",
+        "time": "7–17 sec",
+        "visual": "Samar opens the locker. Inside is a tiny swirling purple portal that looks like a miniature doorway into another dimension. Samar leans closer.",
+        "dialogue": {
+          "samar": "That's definitely not my homework."
+        },
+        "animation": [
+          "Locker door opens.",
+          "Purple portal spins.",
+          "Light reflects on Samar's face.",
+          "Samar moves closer cautiously."
+        ],
+        "sound": [
+          "Magical portal sound",
+          "Small comedic sound after dialogue"
+        ]
+      },
+      {
+        "scene": 3,
+        "title": "Call Priyanka & Toto",
+        "time": "17–28 sec",
+        "visual": "Priyanka arrives with Toto Robo-Turtle. Toto scans the portal using his robotic scanner. Digital symbols appear around the portal.",
+        "dialogue": {
+          "priyanka": "Samar, what did you find?",
+          "samar": "I think my locker just became a doorway.",
+          "toto": "Scanning... scanning... Warning! This portal should not exist."
+        },
+        "animation": [
+          "Priyanka looks surprised.",
+          "Toto scans the portal.",
+          "Scanner light moves across the portal.",
+          "Digital symbols appear."
+        ]
+      },
+      {
+        "scene": 4,
+        "title": "The Mystery Hand",
+        "time": "28–43 sec",
+        "visual": "The portal suddenly becomes larger. Everyone steps backward. A mysterious blue hand slowly reaches through. Samar gets into a brave stance. The hand gives Samar a tiny banana.",
+        "dialogue": {
+          "samar": "Everyone, stay back!"
+        },
+        "animation": [
+          "Portal expands.",
+          "Blue hand emerges.",
+          "Samar prepares dramatically.",
+          "Hand suddenly produces banana.",
+          "Samar's expression changes from brave to confused."
+        ],
+        "sound": [
+          "Dramatic music",
+          "Whoosh",
+          "Comedic reveal sound"
+        ]
+      },
+      {
+        "scene": 5,
+        "title": "Toto's Reaction",
+        "time": "43–52 sec",
+        "visual": "Toto examines the banana and scans it seriously.",
+        "dialogue": {
+          "toto": "I have absolutely no explanation for this."
+        },
+        "animation": [
+          "Toto scans banana.",
+          "Scanner beeps.",
+          "Priyanka laughs.",
+          "Samar looks suspiciously at the portal."
+        ]
+      },
+      {
+        "scene": 6,
+        "title": "The Cliffhanger",
+        "time": "52–60 sec",
+        "visual": "The portal disappears. Samar closes the locker. He looks at Priyanka and Toto. As he starts walking away, the locker whispers 'Tomorrow...' Samar freezes, eyes widen.",
+        "dialogue": {
+          "samar": "Okay... tomorrow, we're checking that locker again."
+        },
+        "final_shot": "Close-up of the locker. A tiny purple glow appears again.",
+        "on_screen_text": "TO BE CONTINUED...",
+        "sound": [
+          "Portal disappearing",
+          "Locker whisper",
+          "Final mystery sting"
+        ]
+      }
+    ],
+    "voice_direction": {
+      "samar": {
+        "age": 15,
+        "pitch": "5/10",
+        "speed": "5/10",
+        "energy": "8/10",
+        "warmth": "8/10",
+        "confidence": "9/10",
+        "friendliness": "9/10",
+        "expressiveness": "8/10",
+        "playfulness": "7/10",
+        "voice_depth": "4/10",
+        "clarity": "10/10",
+        "emotion_by_scene": {
+          "scene_1": "Curious",
+          "scene_2": "Surprised + funny",
+          "scene_3": "Excited",
+          "scene_4": "Brave",
+          "scene_5": "Confused",
+          "scene_6": "Suspicious + surprised"
+        },
+        "note": "Keep Samar's underlying voice identical in every episode. Change only emotion and delivery."
+      },
+      "priyanka": {
+        "age": "15–16",
+        "pitch": "6/10",
+        "speed": "5/10",
+        "energy": "7/10",
+        "warmth": "8/10",
+        "confidence": "8/10",
+        "friendliness": "9/10",
+        "expressiveness": "8/10",
+        "clarity": "10/10",
+        "personality": "Smart + friendly + confident + curious"
+      },
+      "toto": {
+        "type": "Friendly young robot voice",
+        "pitch": "6/10",
+        "speed": "5/10",
+        "energy": "6/10",
+        "warmth": "7/10",
+        "robotic_effect": "4/10",
+        "humor": "8/10",
+        "clarity": "10/10",
+        "note": "Toto should sound robotic enough to be recognizable but still warm and funny."
+      }
+    },
+    "visual_style": {
+      "master_formula": "High-quality colorful 3D animated kids cartoon, cinematic family-friendly animation, expressive characters, soft lighting, vibrant Apex City environment, polished animated movie quality, appealing character designs, clean details, playful atmosphere, dynamic camera angles, consistent character appearance, vertical 9:16 composition."
+    },
+    "scene_prompts": {
+      "scene_1": "Colorful modern school hallway in Apex City, high-quality 3D animated kids cartoon, Samar Chakrawarti walking with a backpack, suddenly noticing a school locker glowing with mysterious purple light, expressive surprised face, cinematic lighting, family-friendly adventure atmosphere, vertical 9:16.",
+      "scene_2": "Samar Chakrawarti opening a school locker and discovering a tiny swirling purple magical portal inside, purple light illuminating his face, curious and surprised expression, colorful modern school hallway, high-quality 3D kids animation, cinematic composition, vertical 9:16.",
+      "scene_3": "Samar Chakrawarti, Priyanka Shrivastava and Toto Robo-Turtle standing together in a colorful school hallway while Toto scans a mysterious purple portal with futuristic technology, glowing digital scanner effects, expressive faces, polished 3D animated kids cartoon, vertical 9:16.",
+      "scene_4": "A mysterious glowing blue hand reaching out from a large purple dimensional portal inside a school locker, Samar standing bravely in front of Priyanka and Toto, dramatic but funny family-friendly superhero moment, cinematic 3D animation, vibrant colors, vertical 9:16.",
+      "scene_5": "Toto Robo-Turtle seriously scanning a tiny banana while Samar and Priyanka look confused and amused, mysterious purple portal in background, funny children's animation scene, expressive faces, colorful cinematic 3D cartoon, vertical 9:16.",
+      "scene_6": "Close-up of a mysterious school locker in an empty colorful Apex City school hallway, tiny purple glow appearing inside the locker, mysterious magical atmosphere, cinematic 3D kids animation, suspenseful but family-friendly, vertical 9:16."
+    },
+    "audio_direction": {
+      "background_music": [
+        "Start with light adventurous mystery music.",
+        "Build intensity when the portal appears.",
+        "Use a short dramatic rise when the blue hand appears.",
+        "Switch to playful comedy music when the banana is revealed.",
+        "End with a mysterious musical sting."
+      ],
+      "sound_effects": [
+        "School ambience",
+        "Locker opening",
+        "Magical portal hum",
+        "Digital scanner beeps",
+        "Portal expansion whoosh",
+        "Dramatic reveal",
+        "Comedic banana reveal",
+        "Portal disappearing",
+        "Locker whisper",
+        "Final mystery sting"
+      ]
+    },
+    "editing_rules": [
+      "Keep the first 2 seconds visually interesting.",
+      "Avoid long static shots.",
+      "Use frequent camera movement.",
+      "Keep dialogue short.",
+      "Use expressive character reactions.",
+      "Cut quickly during the portal scene.",
+      "Pause briefly before the banana reveal.",
+      "End with a strong cliffhanger."
+    ],
+    "hook": {
+      "first_line": "Wait... why is my locker glowing?",
+      "goal": "The viewer should immediately want to know what is inside."
+    },
+    "ending_hook": {
+      "line": "Tomorrow...",
+      "effect": "Creates a reason to watch Episode 0002."
+    },
+    "episode_0002_setup": "The next episode begins with Samar returning to the school the following morning. The locker is no longer glowing. But something has been left inside—a tiny mysterious key.",
+    "production_checklist": [
+      "Samar character reference",
+      "Priyanka character reference",
+      "Toto character reference",
+      "School environment",
+      "Locker",
+      "Purple portal",
+      "Blue mystery hand",
+      "Banana",
+      "English voices",
+      "Background music",
+      "Sound effects",
+      "Vertical 9:16 edit",
+      "Final quality check",
+      "YouTube Short upload"
+    ],
+    "episode_goal": "Episode 0001 should introduce the audience to Samar + Apex City + comedy + mystery + the beginning of a larger story. The audience should finish the Short thinking: 'What is inside the portal?'"
+  }
+}
