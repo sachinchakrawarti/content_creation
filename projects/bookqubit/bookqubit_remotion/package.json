@@ -2,14 +2,19 @@
   "name": "bookqubit_remotion",
   "version": "0.1.0",
   "private": true,
- "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "lint": "eslint",
-  "remotion": "remotion studio src/remotion/index.jsx",
-  "render": "remotion render src/remotion/index.jsx TestVideo out/test-video.mp4"
-},
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+
+    "remotion": "remotion studio src/remotion/index.jsx --port 3000",
+    "remotion:top5":  "remotion studio src/remotion/index-top5.jsx  --port 3000",
+    "remotion:quote": "remotion studio src/remotion/index-quote.jsx --port 3000",
+    "remotion:book":  "remotion studio src/remotion/index-book.jsx  --port 3000",
+
+    "render": "remotion render src/remotion/index.jsx TestVideo out/test-video.mp4"
+  },
   "dependencies": {
     "@remotion/bundler": "^4.0.513",
     "@remotion/cli": "^4.0.513",
